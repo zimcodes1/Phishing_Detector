@@ -1,0 +1,204 @@
+[{"stream_name":"stderr","time":7.919115634,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.919201932,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.919209152,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.919213311,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.653692382,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.653786532,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.653793344,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.653797886,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.058536564,"data":"Using dataset path: /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/CEAS_08.csv\n"}
+,{"stream_name":"stdout","time":12.623223882,"data":"Raw shape: (39154, 7)\n"}
+,{"stream_name":"stdout","time":12.623300017,"data":"\n"}
+,{"stream_name":"stdout","time":12.623307888,"data":"Dtypes:\n"}
+,{"stream_name":"stdout","time":12.623312892,"data":"sender      object\n"}
+,{"stream_name":"stdout","time":12.623317278,"data":"receiver    object\n"}
+,{"stream_name":"stdout","time":12.623321808,"data":"date        object\n"}
+,{"stream_name":"stdout","time":12.623326363,"data":"subject     object\n"}
+,{"stream_name":"stdout","time":12.623330918,"data":"body        object\n"}
+,{"stream_name":"stdout","time":12.623335423,"data":"label        int64\n"}
+,{"stream_name":"stdout","time":12.623340229,"data":"urls         int64\n"}
+,{"stream_name":"stdout","time":12.623344978,"data":"dtype: object\n"}
+,{"stream_name":"stdout","time":12.62334951,"data":"\n"}
+,{"stream_name":"stdout","time":12.623354438,"data":"Null counts:\n"}
+,{"stream_name":"stdout","time":12.623359433,"data":"sender        0\n"}
+,{"stream_name":"stdout","time":12.623364379,"data":"receiver    462\n"}
+,{"stream_name":"stdout","time":12.623369045,"data":"date          0\n"}
+,{"stream_name":"stdout","time":12.623373514,"data":"subject      28\n"}
+,{"stream_name":"stdout","time":12.623378147,"data":"body          0\n"}
+,{"stream_name":"stdout","time":12.623383089,"data":"label         0\n"}
+,{"stream_name":"stdout","time":12.623387649,"data":"urls          0\n"}
+,{"stream_name":"stdout","time":12.623392563,"data":"dtype: int64\n"}
+,{"stream_name":"stdout","time":12.623397338,"data":"\n"}
+,{"stream_name":"stdout","time":12.623402298,"data":"Label balance (original labels):\n"}
+,{"stream_name":"stdout","time":12.623406939,"data":"       count  percentage\n"}
+,{"stream_name":"stdout","time":12.62341126,"data":"label                   \n"}
+,{"stream_name":"stdout","time":12.623416533,"data":"1      21842       55.78\n"}
+,{"stream_name":"stdout","time":12.623421355,"data":"0      17312       44.22\n"}
+,{"stream_name":"stdout","time":12.62342585,"data":"\n"}
+,{"stream_name":"stdout","time":12.623430431,"data":"Sample rows (5):\n"}
+,{"stream_name":"stdout","time":12.623435567,"data":"                                                sender                                       receiver                            date                                               subject                                                    body  urls\n"}
+,{"stream_name":"stdout","time":12.623462894,"data":"                      Young Esposito \u003cYoung@iworld.de\u003e                    user4@gvc.ceas-challenge.cc Tue, 05 Aug 2008 16:31:02 -0700                          Never agree to be a loser...   Buck up, your troubles caused by small dimension w...     1\n"}
+,{"stream_name":"stdout","time":12.623467387,"data":"                          Mok \u003cipline's1983@icable.ph\u003e                  user2.2@gvc.ceas-challenge.cc Tue, 05 Aug 2008 18:31:03 -0500                             Befriend Jenna Jameson...  \\nUpgrade your sex and pleasures with these techniq...     1\n"}
+,{"stream_name":"stdout","time":12.623470508,"data":"Daily Top 10 \u003cKarmandeep-opengevl@universalnet.psi.br\u003e                  user2.9@gvc.ceas-challenge.cc Tue, 05 Aug 2008 20:28:00 -1200                               CNN.com Daily Top 10...   \u003e+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+...     1\n"}
+,{"stream_name":"stdout","time":12.623473573,"data":"                    Michael Parker \u003civqrnai@pobox.com\u003e SpamAssassin Dev \u003cxrh@spamassassin.apache.org\u003e Tue, 05 Aug 2008 17:31:20 -0600 Re: svn commit: r619753 - in /spamassassin/trunk: ...   Would anyone object to removing .so from this list...     1\n"}
+,{"stream_name":"stdout","time":12.623476658,"data":"     Gretchen Suggs \u003cexternalsep1@loanofficertool.com\u003e                  user2.2@gvc.ceas-challenge.cc Tue, 05 Aug 2008 19:31:21 -0400                         SpecialPricesPharmMoreinfo... \\nWelcomeFastShippingCustomerSupport\\nhttp://7iwfna....     1\n"}
+,{"stream_name":"stdout","time":12.623479612,"data":"\n"}
+,{"stream_name":"stdout","time":12.623481977,"data":"Rows after dropping unrecoverable nulls: 39154\n"}
+,{"stream_name":"stdout","time":12.623484449,"data":"\n"}
+,{"stream_name":"stdout","time":12.623486807,"data":"Null counts after cleanup:\n"}
+,{"stream_name":"stdout","time":12.623491586,"data":"sender        0\n"}
+,{"stream_name":"stdout","time":12.623494254,"data":"receiver    462\n"}
+,{"stream_name":"stdout","time":12.623496649,"data":"date          0\n"}
+,{"stream_name":"stdout","time":12.623498949,"data":"subject      28\n"}
+,{"stream_name":"stdout","time":12.623501211,"data":"body          0\n"}
+,{"stream_name":"stdout","time":12.623503534,"data":"label         0\n"}
+,{"stream_name":"stdout","time":12.62350599,"data":"urls          0\n"}
+,{"stream_name":"stdout","time":12.623508363,"data":"dtype: int64\n"}
+,{"stream_name":"stdout","time":45.273114539,"data":"Final engineered feature list and shape:\n"}
+,{"stream_name":"stdout","time":45.273162173,"data":"(39154, 17)\n"}
+,{"stream_name":"stdout","time":45.273169858,"data":"label                          int64\n"}
+,{"stream_name":"stdout","time":45.2731754,"data":"sender_is_freemail             int64\n"}
+,{"stream_name":"stdout","time":45.273180556,"data":"sender_domain_length           int64\n"}
+,{"stream_name":"stdout","time":45.273186288,"data":"domain_mismatch                int64\n"}
+,{"stream_name":"stdout","time":45.273191049,"data":"email_hour                   float64\n"}
+,{"stream_name":"stdout","time":45.273195425,"data":"is_weekend                     int64\n"}
+,{"stream_name":"stdout","time":45.273207939,"data":"subject_length               float64\n"}
+,{"stream_name":"stdout","time":45.273212671,"data":"subject_urgency_count        float64\n"}
+,{"stream_name":"stdout","time":45.273217375,"data":"subject_exclamation_count    float64\n"}
+,{"stream_name":"stdout","time":45.273221995,"data":"subject_caps_ratio           float64\n"}
+,{"stream_name":"stdout","time":45.273227033,"data":"body_length                  float64\n"}
+,{"stream_name":"stdout","time":45.273240146,"data":"body_urgency_count           float64\n"}
+,{"stream_name":"stdout","time":45.273242748,"data":"body_html_tag_count          float64\n"}
+,{"stream_name":"stdout","time":45.273245132,"data":"body_link_count              float64\n"}
+,{"stream_name":"stdout","time":45.273248202,"data":"body_exclamation_count       float64\n"}
+,{"stream_name":"stdout","time":45.273251942,"data":"body_caps_ratio              float64\n"}
+,{"stream_name":"stdout","time":45.2732556,"data":"urls_present                   int64\n"}
+,{"stream_name":"stdout","time":45.273259479000004,"data":"dtype: object\n"}
+,{"stream_name":"stdout","time":45.273263357,"data":"\n"}
+,{"stream_name":"stdout","time":45.273367405,"data":"Feature columns: ['sender_is_freemail', 'sender_domain_length', 'domain_mismatch', 'email_hour', 'is_weekend', 'subject_length', 'subject_urgency_count', 'subject_exclamation_count', 'subject_caps_ratio', 'body_length', 'body_urgency_count', 'body_html_tag_count', 'body_link_count', 'body_exclamation_count', 'body_caps_ratio', 'urls_present']\n"}
+,{"stream_name":"stdout","time":47.207323712,"data":"Original label counts before remap:\n"}
+,{"stream_name":"stdout","time":47.207375214,"data":"label\n"}
+,{"stream_name":"stdout","time":47.207380342,"data":"1    21842\n"}
+,{"stream_name":"stdout","time":47.207383896,"data":"0    17312\n"}
+,{"stream_name":"stdout","time":47.207388063,"data":"Name: count, dtype: int64\n"}
+,{"stream_name":"stdout","time":47.207392257,"data":"\n"}
+,{"stream_name":"stdout","time":47.207421465,"data":"Missing values in engineered features:\n"}
+,{"stream_name":"stdout","time":47.207425302,"data":"sender_is_freemail           0\n"}
+,{"stream_name":"stdout","time":47.207428465,"data":"sender_domain_length         0\n"}
+,{"stream_name":"stdout","time":47.207431822,"data":"domain_mismatch              0\n"}
+,{"stream_name":"stdout","time":47.207435687,"data":"email_hour                   0\n"}
+,{"stream_name":"stdout","time":47.207438947,"data":"is_weekend                   0\n"}
+,{"stream_name":"stdout","time":47.207442475,"data":"subject_length               0\n"}
+,{"stream_name":"stdout","time":47.207445768,"data":"subject_urgency_count        0\n"}
+,{"stream_name":"stdout","time":47.207448983,"data":"subject_exclamation_count    0\n"}
+,{"stream_name":"stdout","time":47.207459454,"data":"subject_caps_ratio           0\n"}
+,{"stream_name":"stdout","time":47.207462686,"data":"body_length                  0\n"}
+,{"stream_name":"stdout","time":47.207465893,"data":"body_urgency_count           0\n"}
+,{"stream_name":"stdout","time":47.20746964,"data":"body_html_tag_count          0\n"}
+,{"stream_name":"stdout","time":47.207473105,"data":"body_link_count              0\n"}
+,{"stream_name":"stdout","time":47.207477224,"data":"body_exclamation_count       0\n"}
+,{"stream_name":"stdout","time":47.20748119,"data":"body_caps_ratio              0\n"}
+,{"stream_name":"stdout","time":47.207484888,"data":"urls_present                 0\n"}
+,{"stream_name":"stdout","time":47.207488714,"data":"dtype: int64\n"}
+,{"stream_name":"stdout","time":47.20749239,"data":"\n"}
+,{"stream_name":"stdout","time":47.20749607,"data":"Infinite values in engineered features:\n"}
+,{"stream_name":"stdout","time":47.20750009,"data":"sender_is_freemail           0\n"}
+,{"stream_name":"stdout","time":47.207504119,"data":"sender_domain_length         0\n"}
+,{"stream_name":"stdout","time":47.207508119,"data":"domain_mismatch              0\n"}
+,{"stream_name":"stdout","time":47.207511712,"data":"email_hour                   0\n"}
+,{"stream_name":"stdout","time":47.207535418,"data":"is_weekend                   0\n"}
+,{"stream_name":"stdout","time":47.207539569,"data":"subject_length               0\n"}
+,{"stream_name":"stdout","time":47.207543258,"data":"subject_urgency_count        0\n"}
+,{"stream_name":"stdout","time":47.207546971,"data":"subject_exclamation_count    0\n"}
+,{"stream_name":"stdout","time":47.207550624,"data":"subject_caps_ratio           0\n"}
+,{"stream_name":"stdout","time":47.207554367,"data":"body_length                  0\n"}
+,{"stream_name":"stdout","time":47.207558292,"data":"body_urgency_count           0\n"}
+,{"stream_name":"stdout","time":47.207562117,"data":"body_html_tag_count          0\n"}
+,{"stream_name":"stdout","time":47.207565817,"data":"body_link_count              0\n"}
+,{"stream_name":"stdout","time":47.207569705,"data":"body_exclamation_count       0\n"}
+,{"stream_name":"stdout","time":47.207590188,"data":"body_caps_ratio              0\n"}
+,{"stream_name":"stdout","time":47.20759372,"data":"urls_present                 0\n"}
+,{"stream_name":"stdout","time":47.207597801,"data":"dtype: int64\n"}
+,{"stream_name":"stdout","time":47.207601465,"data":"\n"}
+,{"stream_name":"stdout","time":47.207604723,"data":"Train set shape: (31323, 16) (31323,)\n"}
+,{"stream_name":"stdout","time":47.207608743,"data":"Test set shape: (7831, 16) (7831,)\n"}
+,{"stream_name":"stdout","time":47.207612054,"data":"\n"}
+,{"stream_name":"stdout","time":47.207615334,"data":"Train class balance:\n"}
+,{"stream_name":"stdout","time":47.207618559,"data":"       count  percentage\n"}
+,{"stream_name":"stdout","time":47.207622442,"data":"label                   \n"}
+,{"stream_name":"stdout","time":47.207626198,"data":"0      13850       44.22\n"}
+,{"stream_name":"stdout","time":47.207629737,"data":"1      17473       55.78\n"}
+,{"stream_name":"stdout","time":47.207633394,"data":"\n"}
+,{"stream_name":"stdout","time":47.207637008,"data":"Test class balance:\n"}
+,{"stream_name":"stdout","time":47.207640217,"data":"       count  percentage\n"}
+,{"stream_name":"stdout","time":47.207643957,"data":"label                   \n"}
+,{"stream_name":"stdout","time":47.207647542,"data":"0       3462       44.21\n"}
+,{"stream_name":"stdout","time":47.207651198,"data":"1       4369       55.79\n"}
+,{"stream_name":"stdout","time":48.368007702,"data":"Training accuracy: 0.9911\n"}
+,{"stream_name":"stdout","time":48.401301021,"data":"Feature importance table (gain-based):\n"}
+,{"stream_name":"stdout","time":48.401358017,"data":"             feature_name  importance_score\n"}
+,{"stream_name":"stdout","time":48.40136444,"data":"              body_length         54.348064\n"}
+,{"stream_name":"stdout","time":48.401368623,"data":"      body_html_tag_count         53.646465\n"}
+,{"stream_name":"stdout","time":48.401372361,"data":"          body_caps_ratio         27.596704\n"}
+,{"stream_name":"stdout","time":48.401376257,"data":"             urls_present         24.533352\n"}
+,{"stream_name":"stdout","time":48.401379923,"data":"       body_urgency_count         21.553209\n"}
+,{"stream_name":"stdout","time":48.401383885,"data":"          body_link_count         20.940956\n"}
+,{"stream_name":"stdout","time":48.401387484,"data":"   body_exclamation_count         20.255928\n"}
+,{"stream_name":"stdout","time":48.401391081,"data":"    subject_urgency_count         12.717711\n"}
+,{"stream_name":"stdout","time":48.401395336,"data":"subject_exclamation_count         11.167539\n"}
+,{"stream_name":"stdout","time":48.401399023,"data":"          domain_mismatch          8.794921\n"}
+,{"stream_name":"stdout","time":48.401436576,"data":"\n"}
+,{"stream_name":"stdout","time":48.401441456,"data":"Top 7 features for chapter 4:\n"}
+,{"stream_name":"stdout","time":48.401445214,"data":"          feature_name  importance_score\n"}
+,{"stream_name":"stdout","time":48.401449146,"data":"           body_length         54.348064\n"}
+,{"stream_name":"stdout","time":48.401453044,"data":"   body_html_tag_count         53.646465\n"}
+,{"stream_name":"stdout","time":48.4014567,"data":"       body_caps_ratio         27.596704\n"}
+,{"stream_name":"stdout","time":48.401460455,"data":"          urls_present         24.533352\n"}
+,{"stream_name":"stdout","time":48.401464289,"data":"    body_urgency_count         21.553209\n"}
+,{"stream_name":"stdout","time":48.401468193,"data":"       body_link_count         20.940956\n"}
+,{"stream_name":"stdout","time":48.401472007,"data":"body_exclamation_count         20.255928\n"}
+,{"stream_name":"stderr","time":49.315734859,"data":"/tmp/ipykernel_16/1081997331.py:4: FutureWarning: \n"}
+,{"stream_name":"stderr","time":49.315786497,"data":"\n"}
+,{"stream_name":"stderr","time":49.315791889,"data":"Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.\n"}
+,{"stream_name":"stderr","time":49.31579596,"data":"\n"}
+,{"stream_name":"stderr","time":49.31579936,"data":"  ax = sns.barplot(\n"}
+,{"stream_name":"stderr","time":49.315803342,"data":"\n"}
+,{"stream_name":"stderr","time":49.315806859,"data":"/tmp/ipykernel_16/1081997331.py:4: FutureWarning: \n"}
+,{"stream_name":"stderr","time":49.315810707,"data":"\n"}
+,{"stream_name":"stderr","time":49.315814181,"data":"Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.\n"}
+,{"stream_name":"stderr","time":49.315818703,"data":"\n"}
+,{"stream_name":"stderr","time":49.315822385,"data":"  ax = sns.barplot(\n"}
+,{"stream_name":"stdout","time":49.84300334,"data":"Saved plot to: /kaggle/working/email_feature_importance_all.png\n"}
+,{"stream_name":"stdout","time":60.756968733,"data":"SHAP summary ranking (mean |SHAP value|):\n"}
+,{"stream_name":"stdout","time":60.757027445,"data":"             feature_name  shap_mean_abs_value\n"}
+,{"stream_name":"stdout","time":60.757034312,"data":"              body_length             2.623282\n"}
+,{"stream_name":"stdout","time":60.757039105,"data":"          body_caps_ratio             1.073825\n"}
+,{"stream_name":"stdout","time":60.757043759,"data":"          body_link_count             0.846297\n"}
+,{"stream_name":"stdout","time":60.757048688,"data":"           subject_length             0.749674\n"}
+,{"stream_name":"stdout","time":60.757053742,"data":"             urls_present             0.743019\n"}
+,{"stream_name":"stdout","time":60.757058102,"data":"   body_exclamation_count             0.704178\n"}
+,{"stream_name":"stdout","time":60.757062951,"data":"       subject_caps_ratio             0.564950\n"}
+,{"stream_name":"stdout","time":60.757067969,"data":"     sender_domain_length             0.451049\n"}
+,{"stream_name":"stdout","time":60.757072689,"data":"subject_exclamation_count             0.187730\n"}
+,{"stream_name":"stdout","time":60.757077633,"data":"      body_html_tag_count             0.185543\n"}
+,{"stream_name":"stdout","time":62.437892925,"data":"Saved SHAP beeswarm plot to: /kaggle/working/email_shap_summary_beeswarm.png\n"}
+,{"stream_name":"stdout","time":62.949063457,"data":"\n"}
+,{"stream_name":"stdout","time":62.949140608,"data":"SHAP top-7 vs gain-based top-7 overlap: 5/7 features\n"}
+,{"stream_name":"stdout","time":62.949147599,"data":"Discrepancies noted: ['body_html_tag_count', 'body_urgency_count', 'subject_caps_ratio', 'subject_length']\n"}
+,{"stream_name":"stdout","time":62.949152003,"data":"These differences are worth flagging in the write-up as a ranking-consistency check.\n"}
+,{"stream_name":"stdout","time":62.987887336,"data":"Saved selected feature subset to: /kaggle/working/email_selected_features_top7.txt\n"}
+,{"stream_name":"stdout","time":62.987949678,"data":"Saved selected feature subset JSON to: /kaggle/working/email_selected_features_top7.json\n"}
+,{"stream_name":"stdout","time":62.987957036,"data":"Saved ranked importance table to: /kaggle/working/email_feature_importance_ranked.csv\n"}
+,{"stream_name":"stdout","time":62.987961354,"data":"Saved plots already exist in: /kaggle/working\n"}
+,{"stream_name":"stderr","time":66.790817679,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":66.790873255,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":66.983174964,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":66.983242763,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":67.685973324,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":68.081325415,"data":"[NbConvertApp] Writing 246466 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":71.07516283,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":72.166590452,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":72.166635534,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":72.166997135,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":72.167312666,"data":"[NbConvertApp] Writing 354973 bytes to __results__.html\n"}
+]

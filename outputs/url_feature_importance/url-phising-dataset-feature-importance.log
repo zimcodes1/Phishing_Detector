@@ -1,0 +1,246 @@
+[{"stream_name":"stderr","time":8.627444149,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.627545165,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.627554576,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.627559971,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.422528583,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.422574686,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.422587161,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.422590731,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.729391267,"data":"/kaggle/input/datasets/eswarchandt/phishing-website-detector/phishing.txt\n"}
+,{"stream_name":"stdout","time":10.729461812,"data":"/kaggle/input/datasets/eswarchandt/phishing-website-detector/phishing.csv\n"}
+,{"stream_name":"stdout","time":11.915844682,"data":"Using dataset path: /kaggle/input/datasets/eswarchandt/phishing-website-detector/phishing.csv\n"}
+,{"stream_name":"stdout","time":11.915888256,"data":"Raw shape: (11054, 32)\n"}
+,{"stream_name":"stdout","time":11.915894438,"data":"\n"}
+,{"stream_name":"stdout","time":11.91589857,"data":"Shape after dropping Index:\n"}
+,{"stream_name":"stdout","time":11.91590287,"data":"(11054, 31)\n"}
+,{"stream_name":"stdout","time":11.915906897,"data":"\n"}
+,{"stream_name":"stdout","time":11.915910519,"data":"Dtypes:\n"}
+,{"stream_name":"stdout","time":11.915914276,"data":"UsingIP                int64\n"}
+,{"stream_name":"stdout","time":11.915917938,"data":"LongURL                int64\n"}
+,{"stream_name":"stdout","time":11.915930655,"data":"ShortURL               int64\n"}
+,{"stream_name":"stdout","time":11.915934534,"data":"Symbol@                int64\n"}
+,{"stream_name":"stdout","time":11.915938410999999,"data":"Redirecting//          int64\n"}
+,{"stream_name":"stdout","time":11.915942299,"data":"PrefixSuffix-          int64\n"}
+,{"stream_name":"stdout","time":11.915946536,"data":"SubDomains             int64\n"}
+,{"stream_name":"stdout","time":11.915950473,"data":"HTTPS                  int64\n"}
+,{"stream_name":"stdout","time":11.915954379,"data":"DomainRegLen           int64\n"}
+,{"stream_name":"stdout","time":11.915958222,"data":"Favicon                int64\n"}
+,{"stream_name":"stdout","time":11.91596191,"data":"NonStdPort             int64\n"}
+,{"stream_name":"stdout","time":11.915966245,"data":"HTTPSDomainURL         int64\n"}
+,{"stream_name":"stdout","time":11.915971141,"data":"RequestURL             int64\n"}
+,{"stream_name":"stdout","time":11.915975479,"data":"AnchorURL              int64\n"}
+,{"stream_name":"stdout","time":11.915979902,"data":"LinksInScriptTags      int64\n"}
+,{"stream_name":"stdout","time":11.91598347,"data":"ServerFormHandler      int64\n"}
+,{"stream_name":"stdout","time":11.915987182,"data":"InfoEmail              int64\n"}
+,{"stream_name":"stdout","time":11.915991485,"data":"AbnormalURL            int64\n"}
+,{"stream_name":"stdout","time":11.915995274,"data":"WebsiteForwarding      int64\n"}
+,{"stream_name":"stdout","time":11.915999108,"data":"StatusBarCust          int64\n"}
+,{"stream_name":"stdout","time":11.916002833,"data":"DisableRightClick      int64\n"}
+,{"stream_name":"stdout","time":11.916030292,"data":"UsingPopupWindow       int64\n"}
+,{"stream_name":"stdout","time":11.916034914,"data":"IframeRedirection      int64\n"}
+,{"stream_name":"stdout","time":11.916038706,"data":"AgeofDomain            int64\n"}
+,{"stream_name":"stdout","time":11.916042638,"data":"DNSRecording           int64\n"}
+,{"stream_name":"stdout","time":11.916046285,"data":"WebsiteTraffic         int64\n"}
+,{"stream_name":"stdout","time":11.916049928,"data":"PageRank               int64\n"}
+,{"stream_name":"stdout","time":11.916053797,"data":"GoogleIndex            int64\n"}
+,{"stream_name":"stdout","time":11.916057612,"data":"LinksPointingToPage    int64\n"}
+,{"stream_name":"stdout","time":11.916061993,"data":"StatsReport            int64\n"}
+,{"stream_name":"stdout","time":11.916065745000001,"data":"class                  int64\n"}
+,{"stream_name":"stdout","time":11.916069651,"data":"dtype: object\n"}
+,{"stream_name":"stdout","time":11.916073266,"data":"\n"}
+,{"stream_name":"stdout","time":11.916077226,"data":"Null counts:\n"}
+,{"stream_name":"stdout","time":11.916081117,"data":"UsingIP                0\n"}
+,{"stream_name":"stdout","time":11.916085671,"data":"LongURL                0\n"}
+,{"stream_name":"stdout","time":11.91608946,"data":"ShortURL               0\n"}
+,{"stream_name":"stdout","time":11.916093113,"data":"Symbol@                0\n"}
+,{"stream_name":"stdout","time":11.916097363,"data":"Redirecting//          0\n"}
+,{"stream_name":"stdout","time":11.916101391,"data":"PrefixSuffix-          0\n"}
+,{"stream_name":"stdout","time":11.916105386,"data":"SubDomains             0\n"}
+,{"stream_name":"stdout","time":11.916109525,"data":"HTTPS                  0\n"}
+,{"stream_name":"stdout","time":11.916113668,"data":"DomainRegLen           0\n"}
+,{"stream_name":"stdout","time":11.916117699,"data":"Favicon                0\n"}
+,{"stream_name":"stdout","time":11.916121776,"data":"NonStdPort             0\n"}
+,{"stream_name":"stdout","time":11.916126142,"data":"HTTPSDomainURL         0\n"}
+,{"stream_name":"stdout","time":11.916130736,"data":"RequestURL             0\n"}
+,{"stream_name":"stdout","time":11.916135064,"data":"AnchorURL              0\n"}
+,{"stream_name":"stdout","time":11.91628607,"data":"LinksInScriptTags      0\n"}
+,{"stream_name":"stdout","time":11.916301426,"data":"ServerFormHandler      0\n"}
+,{"stream_name":"stdout","time":11.916306622,"data":"InfoEmail              0\n"}
+,{"stream_name":"stdout","time":11.916310907,"data":"AbnormalURL            0\n"}
+,{"stream_name":"stdout","time":11.916314853,"data":"WebsiteForwarding      0\n"}
+,{"stream_name":"stdout","time":11.916319113,"data":"StatusBarCust          0\n"}
+,{"stream_name":"stdout","time":11.916322876,"data":"DisableRightClick      0\n"}
+,{"stream_name":"stdout","time":11.916326622,"data":"UsingPopupWindow       0\n"}
+,{"stream_name":"stdout","time":11.916331468,"data":"IframeRedirection      0\n"}
+,{"stream_name":"stdout","time":11.916335191,"data":"AgeofDomain            0\n"}
+,{"stream_name":"stdout","time":11.916339019,"data":"DNSRecording           0\n"}
+,{"stream_name":"stdout","time":11.916342936,"data":"WebsiteTraffic         0\n"}
+,{"stream_name":"stdout","time":11.916347019,"data":"PageRank               0\n"}
+,{"stream_name":"stdout","time":11.916351403,"data":"GoogleIndex            0\n"}
+,{"stream_name":"stdout","time":11.916355558,"data":"LinksPointingToPage    0\n"}
+,{"stream_name":"stdout","time":11.916359461999999,"data":"StatsReport            0\n"}
+,{"stream_name":"stdout","time":11.916372923,"data":"class                  0\n"}
+,{"stream_name":"stdout","time":11.916377248,"data":"dtype: int64\n"}
+,{"stream_name":"stdout","time":11.916381708,"data":"\n"}
+,{"stream_name":"stdout","time":11.916386094,"data":"Class balance (original labels):\n"}
+,{"stream_name":"stdout","time":11.916451734,"data":"       count  percentage\n"}
+,{"stream_name":"stdout","time":11.916456785,"data":"class                   \n"}
+,{"stream_name":"stdout","time":11.916461135,"data":" 1      6157        55.7\n"}
+,{"stream_name":"stdout","time":11.916464768,"data":"-1      4897        44.3\n"}
+,{"stream_name":"stdout","time":11.916468694,"data":"\n"}
+,{"stream_name":"stdout","time":11.916472213,"data":"Feature list (30 columns):\n"}
+,{"stream_name":"stdout","time":11.916479856,"data":" feature_index        feature_name\n"}
+,{"stream_name":"stdout","time":11.916483878,"data":"             1             UsingIP\n"}
+,{"stream_name":"stdout","time":11.916487782,"data":"             2             LongURL\n"}
+,{"stream_name":"stdout","time":11.91649142,"data":"             3            ShortURL\n"}
+,{"stream_name":"stdout","time":11.916495256,"data":"             4             Symbol@\n"}
+,{"stream_name":"stdout","time":11.916499254,"data":"             5       Redirecting//\n"}
+,{"stream_name":"stdout","time":11.916503059,"data":"             6       PrefixSuffix-\n"}
+,{"stream_name":"stdout","time":11.916506757,"data":"             7          SubDomains\n"}
+,{"stream_name":"stdout","time":11.916511093,"data":"             8               HTTPS\n"}
+,{"stream_name":"stdout","time":11.916515312,"data":"             9        DomainRegLen\n"}
+,{"stream_name":"stdout","time":11.916519633,"data":"            10             Favicon\n"}
+,{"stream_name":"stdout","time":11.916523379000001,"data":"            11          NonStdPort\n"}
+,{"stream_name":"stdout","time":11.916527156,"data":"            12      HTTPSDomainURL\n"}
+,{"stream_name":"stdout","time":11.916531505,"data":"            13          RequestURL\n"}
+,{"stream_name":"stdout","time":11.916535786,"data":"            14           AnchorURL\n"}
+,{"stream_name":"stdout","time":11.916539722,"data":"            15   LinksInScriptTags\n"}
+,{"stream_name":"stdout","time":11.916543775,"data":"            16   ServerFormHandler\n"}
+,{"stream_name":"stdout","time":11.916547699,"data":"            17           InfoEmail\n"}
+,{"stream_name":"stdout","time":11.916551982,"data":"            18         AbnormalURL\n"}
+,{"stream_name":"stdout","time":11.916555899,"data":"            19   WebsiteForwarding\n"}
+,{"stream_name":"stdout","time":11.916559776,"data":"            20       StatusBarCust\n"}
+,{"stream_name":"stdout","time":11.916563759,"data":"            21   DisableRightClick\n"}
+,{"stream_name":"stdout","time":11.916567748,"data":"            22    UsingPopupWindow\n"}
+,{"stream_name":"stdout","time":11.91657231,"data":"            23   IframeRedirection\n"}
+,{"stream_name":"stdout","time":11.916576928,"data":"            24         AgeofDomain\n"}
+,{"stream_name":"stdout","time":11.916581163,"data":"            25        DNSRecording\n"}
+,{"stream_name":"stdout","time":11.916585563,"data":"            26      WebsiteTraffic\n"}
+,{"stream_name":"stdout","time":11.91658959,"data":"            27            PageRank\n"}
+,{"stream_name":"stdout","time":11.916593597,"data":"            28         GoogleIndex\n"}
+,{"stream_name":"stdout","time":11.916597392,"data":"            29 LinksPointingToPage\n"}
+,{"stream_name":"stdout","time":11.916610056,"data":"            30         StatsReport\n"}
+,{"stream_name":"stdout","time":11.916614411,"data":"\n"}
+,{"stream_name":"stdout","time":11.91661806,"data":"Class balance after remap:\n"}
+,{"stream_name":"stdout","time":11.916622116,"data":"       count  percentage\n"}
+,{"stream_name":"stdout","time":11.91662632,"data":"class                   \n"}
+,{"stream_name":"stdout","time":11.916633741,"data":"1       6157        55.7\n"}
+,{"stream_name":"stdout","time":11.916638595,"data":"0       4897        44.3\n"}
+,{"stream_name":"stdout","time":13.975036026,"data":"Missing values after remap:\n"}
+,{"stream_name":"stdout","time":13.975083661,"data":"UsingIP                0\n"}
+,{"stream_name":"stdout","time":13.975089649,"data":"LongURL                0\n"}
+,{"stream_name":"stdout","time":13.975094322,"data":"ShortURL               0\n"}
+,{"stream_name":"stdout","time":13.975099157,"data":"Symbol@                0\n"}
+,{"stream_name":"stdout","time":13.975103373,"data":"Redirecting//          0\n"}
+,{"stream_name":"stdout","time":13.975108016,"data":"PrefixSuffix-          0\n"}
+,{"stream_name":"stdout","time":13.975112399,"data":"SubDomains             0\n"}
+,{"stream_name":"stdout","time":13.975116429,"data":"HTTPS                  0\n"}
+,{"stream_name":"stdout","time":13.975119879,"data":"DomainRegLen           0\n"}
+,{"stream_name":"stdout","time":13.975123546,"data":"Favicon                0\n"}
+,{"stream_name":"stdout","time":13.975127117,"data":"NonStdPort             0\n"}
+,{"stream_name":"stdout","time":13.97513069,"data":"HTTPSDomainURL         0\n"}
+,{"stream_name":"stdout","time":13.975134364,"data":"RequestURL             0\n"}
+,{"stream_name":"stdout","time":13.975138255,"data":"AnchorURL              0\n"}
+,{"stream_name":"stdout","time":13.975142462,"data":"LinksInScriptTags      0\n"}
+,{"stream_name":"stdout","time":13.975146835,"data":"ServerFormHandler      0\n"}
+,{"stream_name":"stdout","time":13.97515036,"data":"InfoEmail              0\n"}
+,{"stream_name":"stdout","time":13.975154562,"data":"AbnormalURL            0\n"}
+,{"stream_name":"stdout","time":13.975158488,"data":"WebsiteForwarding      0\n"}
+,{"stream_name":"stdout","time":13.975162221,"data":"StatusBarCust          0\n"}
+,{"stream_name":"stdout","time":13.975165777,"data":"DisableRightClick      0\n"}
+,{"stream_name":"stdout","time":13.975169786,"data":"UsingPopupWindow       0\n"}
+,{"stream_name":"stdout","time":13.975173427,"data":"IframeRedirection      0\n"}
+,{"stream_name":"stdout","time":13.975177384,"data":"AgeofDomain            0\n"}
+,{"stream_name":"stdout","time":13.975181197,"data":"DNSRecording           0\n"}
+,{"stream_name":"stdout","time":13.975185477,"data":"WebsiteTraffic         0\n"}
+,{"stream_name":"stdout","time":13.975189774,"data":"PageRank               0\n"}
+,{"stream_name":"stdout","time":13.975208094,"data":"GoogleIndex            0\n"}
+,{"stream_name":"stdout","time":13.975215766,"data":"LinksPointingToPage    0\n"}
+,{"stream_name":"stdout","time":13.975220477,"data":"StatsReport            0\n"}
+,{"stream_name":"stdout","time":13.975224698,"data":"class                  0\n"}
+,{"stream_name":"stdout","time":13.975228809,"data":"dtype: int64\n"}
+,{"stream_name":"stdout","time":13.975232759,"data":"\n"}
+,{"stream_name":"stdout","time":13.975236577,"data":"Train set shape: (8843, 30) (8843,)\n"}
+,{"stream_name":"stdout","time":13.975240747,"data":"Test set shape: (2211, 30) (2211,)\n"}
+,{"stream_name":"stdout","time":13.975245032,"data":"\n"}
+,{"stream_name":"stdout","time":13.975268412,"data":"Train class balance:\n"}
+,{"stream_name":"stdout","time":13.975273114,"data":"       count  percentage\n"}
+,{"stream_name":"stdout","time":13.975277179,"data":"class                   \n"}
+,{"stream_name":"stdout","time":13.975281142,"data":"0       3918       44.31\n"}
+,{"stream_name":"stdout","time":13.975285064,"data":"1       4925       55.69\n"}
+,{"stream_name":"stdout","time":13.975288758,"data":"\n"}
+,{"stream_name":"stdout","time":13.975292765,"data":"Test class balance:\n"}
+,{"stream_name":"stdout","time":13.975296489,"data":"       count  percentage\n"}
+,{"stream_name":"stdout","time":13.9753002,"data":"class                   \n"}
+,{"stream_name":"stdout","time":13.975303935,"data":"0        979       44.28\n"}
+,{"stream_name":"stdout","time":13.975307597,"data":"1       1232       55.72\n"}
+,{"stream_name":"stdout","time":14.783617766,"data":"Training accuracy: 0.9846\n"}
+,{"stream_name":"stdout","time":14.823422537,"data":"Feature importance table (gain-based):\n"}
+,{"stream_name":"stdout","time":14.823479064,"data":"     feature_name  importance_score\n"}
+,{"stream_name":"stdout","time":14.823486637,"data":"            HTTPS         70.381775\n"}
+,{"stream_name":"stdout","time":14.823491544,"data":"        AnchorURL         26.746372\n"}
+,{"stream_name":"stdout","time":14.823496171,"data":"    PrefixSuffix-         19.927757\n"}
+,{"stream_name":"stdout","time":14.823500574,"data":"ServerFormHandler          5.216730\n"}
+,{"stream_name":"stdout","time":14.823505166,"data":"   WebsiteTraffic          4.156595\n"}
+,{"stream_name":"stdout","time":14.823509504,"data":"      GoogleIndex          2.941844\n"}
+,{"stream_name":"stdout","time":14.8235141,"data":"     DNSRecording          2.832114\n"}
+,{"stream_name":"stdout","time":14.823518279,"data":"LinksInScriptTags          2.744078\n"}
+,{"stream_name":"stdout","time":14.823522873,"data":"       SubDomains          2.351866\n"}
+,{"stream_name":"stdout","time":14.823527313,"data":"DisableRightClick          2.348221\n"}
+,{"stream_name":"stdout","time":14.82353215,"data":"\n"}
+,{"stream_name":"stdout","time":14.823536226,"data":"Top 7 features for chapter 4:\n"}
+,{"stream_name":"stdout","time":14.823540273,"data":"     feature_name  importance_score\n"}
+,{"stream_name":"stdout","time":14.823544168,"data":"            HTTPS         70.381775\n"}
+,{"stream_name":"stdout","time":14.823548255,"data":"        AnchorURL         26.746372\n"}
+,{"stream_name":"stdout","time":14.823552056,"data":"    PrefixSuffix-         19.927757\n"}
+,{"stream_name":"stdout","time":14.823557991,"data":"ServerFormHandler          5.216730\n"}
+,{"stream_name":"stdout","time":14.823567343,"data":"   WebsiteTraffic          4.156595\n"}
+,{"stream_name":"stdout","time":14.823570162,"data":"      GoogleIndex          2.941844\n"}
+,{"stream_name":"stdout","time":14.823573236,"data":"     DNSRecording          2.832114\n"}
+,{"stream_name":"stdout","time":14.823575839,"data":"\n"}
+,{"stream_name":"stdout","time":14.823578389,"data":"Artifacts will be written to: /kaggle/working\n"}
+,{"stream_name":"stderr","time":15.8515503,"data":"/tmp/ipykernel_16/843742475.py:5: FutureWarning: \n"}
+,{"stream_name":"stderr","time":15.851620626,"data":"\n"}
+,{"stream_name":"stderr","time":15.85162891,"data":"Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.\n"}
+,{"stream_name":"stderr","time":15.851635056,"data":"\n"}
+,{"stream_name":"stderr","time":15.851665377,"data":"  ax = sns.barplot(\n"}
+,{"stream_name":"stderr","time":15.851671695,"data":"\n"}
+,{"stream_name":"stderr","time":15.851677047,"data":"/tmp/ipykernel_16/843742475.py:5: FutureWarning: \n"}
+,{"stream_name":"stderr","time":15.851682327,"data":"\n"}
+,{"stream_name":"stderr","time":15.851686854,"data":"Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.\n"}
+,{"stream_name":"stderr","time":15.851692578,"data":"\n"}
+,{"stream_name":"stderr","time":15.851697596,"data":"  ax = sns.barplot(\n"}
+,{"stream_name":"stdout","time":16.415811352,"data":"Saved plot to: /kaggle/working/feature_importance_top10.png\n"}
+,{"stream_name":"stdout","time":22.705079079,"data":"SHAP summary ranking (mean |SHAP value|):\n"}
+,{"stream_name":"stdout","time":22.70513547,"data":"       feature_name  shap_mean_abs_value\n"}
+,{"stream_name":"stdout","time":22.705142604,"data":"          AnchorURL             2.810336\n"}
+,{"stream_name":"stdout","time":22.705146844,"data":"              HTTPS             2.550260\n"}
+,{"stream_name":"stdout","time":22.70515094,"data":"     WebsiteTraffic             0.811246\n"}
+,{"stream_name":"stdout","time":22.705154985,"data":"      PrefixSuffix-             0.672176\n"}
+,{"stream_name":"stdout","time":22.705158982,"data":"  LinksInScriptTags             0.626872\n"}
+,{"stream_name":"stdout","time":22.705163318,"data":"  ServerFormHandler             0.568790\n"}
+,{"stream_name":"stdout","time":22.705167026,"data":"         SubDomains             0.524082\n"}
+,{"stream_name":"stdout","time":22.705172742,"data":"LinksPointingToPage             0.501718\n"}
+,{"stream_name":"stdout","time":22.705195389,"data":"            UsingIP             0.499973\n"}
+,{"stream_name":"stdout","time":22.705200358,"data":"       DNSRecording             0.418282\n"}
+,{"stream_name":"stdout","time":23.694016141,"data":"Saved SHAP beeswarm plot to: /kaggle/working/shap_summary_beeswarm.png\n"}
+,{"stream_name":"stdout","time":23.85164606,"data":"\n"}
+,{"stream_name":"stdout","time":23.851707153,"data":"SHAP top-7 vs gain-based top-7 overlap: 5/7 features\n"}
+,{"stream_name":"stdout","time":23.851713827,"data":"Discrepancies noted: ['DNSRecording', 'GoogleIndex', 'LinksInScriptTags', 'SubDomains']\n"}
+,{"stream_name":"stdout","time":23.851718087,"data":"These differences are worth flagging in the write-up as a ranking-consistency check.\n"}
+,{"stream_name":"stdout","time":23.891812463,"data":"Saved selected feature subset to: /kaggle/working/selected_features_top7.txt\n"}
+,{"stream_name":"stdout","time":23.891849997,"data":"Saved selected feature subset JSON to: /kaggle/working/selected_features_top7.json\n"}
+,{"stream_name":"stdout","time":23.891856429,"data":"Saved ranked importance table to: /kaggle/working/feature_importance_ranked.csv\n"}
+,{"stream_name":"stdout","time":23.891861165,"data":"Saved plots already exist in: /kaggle/working\n"}
+,{"stream_name":"stderr","time":27.839812507,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":27.839854662,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":28.044618806,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":28.044647225,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":28.80093135,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":29.200566724,"data":"[NbConvertApp] Writing 182870 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":32.423058089,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":33.559544919,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":33.559608846,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":33.560004223,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":33.560328104999996,"data":"[NbConvertApp] Writing 334350 bytes to __results__.html\n"}
+]

@@ -1,0 +1,16 @@
+feature_name,importance_score
+body_length,54.34806442260742
+body_html_tag_count,53.64646530151367
+body_caps_ratio,27.596704483032227
+urls_present,24.53335189819336
+body_urgency_count,21.55320930480957
+body_link_count,20.940956115722656
+body_exclamation_count,20.25592803955078
+subject_urgency_count,12.717711448669434
+subject_exclamation_count,11.1675386428833
+domain_mismatch,8.794920921325684
+subject_length,7.723654747009277
+subject_caps_ratio,6.413621425628662
+email_hour,6.336935043334961
+sender_domain_length,4.957488536834717
+sender_is_freemail,1.1044304370880127
