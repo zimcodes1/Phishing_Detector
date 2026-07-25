@@ -1,0 +1,107 @@
+[{"stream_name":"stderr","time":9.109746187,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.109835538,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.109844043,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.109848065,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.904204927,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.904255615,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.904262261,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.904267115,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.222804673,"data":"/kaggle/input/datasets/eswarchandt/phishing-website-detector/phishing.txt\n"}
+,{"stream_name":"stdout","time":11.222878081,"data":"/kaggle/input/datasets/eswarchandt/phishing-website-detector/phishing.csv\n"}
+,{"stream_name":"stdout","time":12.39702432,"data":"Using dataset path: /kaggle/input/datasets/eswarchandt/phishing-website-detector/phishing.csv\n"}
+,{"stream_name":"stdout","time":12.397093756,"data":"\n"}
+,{"stream_name":"stdout","time":12.397102911,"data":"Raw shape: (11054, 8)\n"}
+,{"stream_name":"stdout","time":12.397107391,"data":"\n"}
+,{"stream_name":"stdout","time":12.397111164,"data":"============== Selected Features =============\n"}
+,{"stream_name":"stdout","time":12.397114773,"data":"HTTPS\n"}
+,{"stream_name":"stdout","time":12.397118264,"data":"AnchorURL\n"}
+,{"stream_name":"stdout","time":12.397121691,"data":"PrefixSuffix-\n"}
+,{"stream_name":"stdout","time":12.397125553,"data":"ServerFormHandler\n"}
+,{"stream_name":"stdout","time":12.39712901,"data":"WebsiteTraffic\n"}
+,{"stream_name":"stdout","time":12.397132463,"data":"GoogleIndex\n"}
+,{"stream_name":"stdout","time":12.397135877,"data":"DNSRecording\n"}
+,{"stream_name":"stdout","time":12.39713943,"data":"\n"}
+,{"stream_name":"stdout","time":12.397142911,"data":"X Shape: (11054, 7)\n"}
+,{"stream_name":"stdout","time":12.397146884,"data":"\n"}
+,{"stream_name":"stdout","time":12.39715018,"data":"============= Class balance: ==============\n"}
+,{"stream_name":"stdout","time":12.397154209,"data":"\n"}
+,{"stream_name":"stdout","time":12.397157972,"data":"Class 1: 6157 samples (55.70%)\n"}
+,{"stream_name":"stdout","time":12.39716217,"data":"\n"}
+,{"stream_name":"stdout","time":12.397165474,"data":"Class 0: 4897 samples (44.30%)\n"}
+,{"stream_name":"stdout","time":14.429736894,"data":"\n"}
+,{"stream_name":"stdout","time":14.429778523,"data":"Training set shape: (8843, 7) (8843,)\n"}
+,{"stream_name":"stdout","time":14.429783728,"data":"\n"}
+,{"stream_name":"stdout","time":14.429787391,"data":"Testing set shape: (2211, 7) (2211,)\n"}
+,{"stream_name":"stdout","time":14.429791162,"data":"\n"}
+,{"stream_name":"stdout","time":14.429794959,"data":"Train class balance:\n"}
+,{"stream_name":"stdout","time":14.429798842,"data":"       count  percentage\n"}
+,{"stream_name":"stdout","time":14.429802883,"data":"class                   \n"}
+,{"stream_name":"stdout","time":14.429806306,"data":"0       3918       44.31\n"}
+,{"stream_name":"stdout","time":14.429810341,"data":"1       4925       55.69\n"}
+,{"stream_name":"stdout","time":14.429834457,"data":"\n"}
+,{"stream_name":"stdout","time":14.429838793,"data":"Test class balance:\n"}
+,{"stream_name":"stdout","time":14.429842547,"data":"       count  percentage\n"}
+,{"stream_name":"stdout","time":14.42984652,"data":"class                   \n"}
+,{"stream_name":"stdout","time":14.429850453,"data":"0        979       44.28\n"}
+,{"stream_name":"stdout","time":14.429854421,"data":"1       1232       55.72\n"}
+,{"stream_name":"stdout","time":14.780882649,"data":"Fitting 5 folds for each of 27 candidates, totalling 135 fits\n"}
+,{"stream_name":"stdout","time":31.729135288,"data":"\n"}
+,{"stream_name":"stdout","time":31.729183089,"data":"Best Training parameters: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 300}\n"}
+,{"stream_name":"stdout","time":31.729188568,"data":"\n"}
+,{"stream_name":"stdout","time":31.729192598,"data":"Best f1 score (phishing class): 0.9175048627399696\n"}
+,{"stream_name":"stdout","time":32.056422086,"data":"\n"}
+,{"stream_name":"stdout","time":32.056478882,"data":"================== Best Estimator CV Fold Scores (phishing-class F1) =======================\n"}
+,{"stream_name":"stdout","time":32.05648652,"data":"\n"}
+,{"stream_name":"stdout","time":32.056491016,"data":"Fold 1:0.9173\n"}
+,{"stream_name":"stdout","time":32.056495008,"data":"\n"}
+,{"stream_name":"stdout","time":32.056498847,"data":"Fold 2:0.9126\n"}
+,{"stream_name":"stdout","time":32.056503058,"data":"\n"}
+,{"stream_name":"stdout","time":32.056507287,"data":"Fold 3:0.9263\n"}
+,{"stream_name":"stdout","time":32.056510763,"data":"\n"}
+,{"stream_name":"stdout","time":32.056514474,"data":"Fold 4:0.9136\n"}
+,{"stream_name":"stdout","time":32.056518337,"data":"\n"}
+,{"stream_name":"stdout","time":32.0565217,"data":"Fold 5:0.9177\n"}
+,{"stream_name":"stdout","time":32.056525386,"data":"\n"}
+,{"stream_name":"stdout","time":32.056528847,"data":"================== Summary Performance =========================\n"}
+,{"stream_name":"stdout","time":32.056532734,"data":"\n"}
+,{"stream_name":"stdout","time":32.056536751,"data":"Mean Score: 0.9175\n"}
+,{"stream_name":"stdout","time":32.056540851,"data":"Standard Deviation: 0.0048\n"}
+,{"stream_name":"stdout","time":32.056544542,"data":"Final Report: 0.9175 ± 0.0048 \n"}
+,{"stream_name":"stdout","time":90.534794159,"data":"\n"}
+,{"stream_name":"stdout","time":90.534865141,"data":"Best Training parameters: {'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}\n"}
+,{"stream_name":"stdout","time":90.53488057,"data":"\n"}
+,{"stream_name":"stdout","time":90.534886028,"data":"Best f1 score (phishing class): 0.9185351847296752\n"}
+,{"stream_name":"stdout","time":91.308437663,"data":"\n"}
+,{"stream_name":"stdout","time":91.308500025,"data":"================== Best Estimator CV Fold Scores (phishing-class F1) =======================\n"}
+,{"stream_name":"stdout","time":91.308505835,"data":"\n"}
+,{"stream_name":"stdout","time":91.308509101,"data":"Fold 1:0.9232\n"}
+,{"stream_name":"stdout","time":91.308512514,"data":"\n"}
+,{"stream_name":"stdout","time":91.308515722,"data":"Fold 2:0.9120\n"}
+,{"stream_name":"stdout","time":91.308520266,"data":"\n"}
+,{"stream_name":"stdout","time":91.308525065,"data":"Fold 3:0.9248\n"}
+,{"stream_name":"stdout","time":91.308529547,"data":"\n"}
+,{"stream_name":"stdout","time":91.308534286,"data":"Fold 4:0.9136\n"}
+,{"stream_name":"stdout","time":91.308538936,"data":"\n"}
+,{"stream_name":"stdout","time":91.308543672,"data":"Fold 5:0.9191\n"}
+,{"stream_name":"stdout","time":91.308570169,"data":"\n"}
+,{"stream_name":"stdout","time":91.308574839,"data":"================== Summary Performance =========================\n"}
+,{"stream_name":"stdout","time":91.30858369,"data":"\n"}
+,{"stream_name":"stdout","time":91.308587808,"data":"Mean Score: 0.9185\n"}
+,{"stream_name":"stdout","time":91.308591603,"data":"Standard Deviation: 0.0051\n"}
+,{"stream_name":"stdout","time":91.308596077,"data":"Final Report: 0.9185 ± 0.0051 \n"}
+,{"stream_name":"stdout","time":91.442391506,"data":"\n"}
+,{"stream_name":"stdout","time":91.442432331,"data":"RF Accuracy Score: 92.93%\n"}
+,{"stream_name":"stdout","time":91.44243817,"data":"RF F1 Score (phishing class): 92.07%\n"}
+,{"stream_name":"stdout","time":91.442547987,"data":"\n"}
+,{"stream_name":"stdout","time":91.442554615,"data":"XGB Accuracy Score: 92.84%\n"}
+,{"stream_name":"stdout","time":91.442559092,"data":"XGB F1 Score (phishing class): 91.89%\n"}
+,{"stream_name":"stdout","time":91.557257605,"data":"Saved: xgb_model.joblib, rf_model.joblib, X_test.csv, y_test.csv, best_params.json\n"}
+,{"stream_name":"stderr","time":97.982288933,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":97.982339069,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":98.298122708,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":98.29816352,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":99.483519579,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":100.004275018,"data":"[NbConvertApp] Writing 26980 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":104.508824597,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":106.058183056,"data":"[NbConvertApp] Writing 323307 bytes to __results__.html\n"}
+]

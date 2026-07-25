@@ -1,0 +1,12 @@
+{
+  "xgb_best_params": {
+    "learning_rate": 0.1,
+    "max_depth": 3,
+    "n_estimators": 300
+  },
+  "rf_best_params": {
+    "max_depth": null,
+    "min_samples_split": 5,
+    "n_estimators": 100
+  }
+}
