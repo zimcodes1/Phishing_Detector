@@ -1,0 +1,81 @@
+[{"stream_name":"stderr","time":8.390019409,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.390100242,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.390105946,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.390108972,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.156596313,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.156670715,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.156678153,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.156683156,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.460805794,"data":"/kaggle/input/datasets/azimehobadiah/email-phishing-test-set/X_test_email.csv\n"}
+,{"stream_name":"stdout","time":10.460864312,"data":"/kaggle/input/datasets/azimehobadiah/email-phishing-test-set/y_test_email.csv\n"}
+,{"stream_name":"stdout","time":10.460870537,"data":"/kaggle/input/models/azimehobadiah/xgb-email-phishing-model/other/default/1/xgb_model_email.joblib\n"}
+,{"stream_name":"stdout","time":10.460875458,"data":"/kaggle/input/models/azimehobadiah/rf-email-phising/scikitlearn/default/1/rf_model_email.joblib\n"}
+,{"stream_name":"stdout","time":11.830164518,"data":"Loading models and test set from:\n"}
+,{"stream_name":"stdout","time":11.8302132,"data":"  /kaggle/input/models/azimehobadiah/xgb-email-phishing-model/other/default/1/xgb_model_email.joblib\n"}
+,{"stream_name":"stdout","time":11.830219317,"data":"  /kaggle/input/models/azimehobadiah/rf-email-phising/scikitlearn/default/1/rf_model_email.joblib\n"}
+,{"stream_name":"stdout","time":11.830223997000001,"data":"  /kaggle/input/datasets/azimehobadiah/email-phishing-test-set/X_test_email.csv\n"}
+,{"stream_name":"stdout","time":11.83022831,"data":"  /kaggle/input/datasets/azimehobadiah/email-phishing-test-set/y_test_email.csv\n"}
+,{"stream_name":"stdout","time":14.699047564,"data":"\n"}
+,{"stream_name":"stdout","time":14.699126586,"data":"X_test shape: (7831, 7)\n"}
+,{"stream_name":"stdout","time":14.69913609,"data":"y_test shape: (7831,)\n"}
+,{"stream_name":"stdout","time":14.699142703,"data":"\n"}
+,{"stream_name":"stdout","time":14.699147949,"data":"Test set class balance:\n"}
+,{"stream_name":"stdout","time":14.699152671,"data":"       count  percentage\n"}
+,{"stream_name":"stdout","time":14.699157715,"data":"label                   \n"}
+,{"stream_name":"stdout","time":14.699162743,"data":"0       3462       44.21\n"}
+,{"stream_name":"stdout","time":14.699167751,"data":"1       4369       55.79\n"}
+,{"stream_name":"stdout","time":15.013310049,"data":"Predictions generated for both models on the held-out test set.\n"}
+,{"stream_name":"stdout","time":15.013362768,"data":"XGBoost predicted class balance: {1: 4425, 0: 3406}\n"}
+,{"stream_name":"stdout","time":15.013370665,"data":"Random Forest predicted class balance: {1: 4387, 0: 3444}\n"}
+,{"stream_name":"stdout","time":15.099587799,"data":"================== Test Set Metrics (Phishing = positive class) ==================\n"}
+,{"stream_name":"stdout","time":15.0996423,"data":"               accuracy  precision  recall      f1  roc_auc\n"}
+,{"stream_name":"stdout","time":15.099649612,"data":"XGBoost          0.9645     0.9623  0.9746  0.9684   0.9929\n"}
+,{"stream_name":"stdout","time":15.099676714,"data":"Random Forest    0.9663     0.9679  0.9718  0.9698   0.9924\n"}
+,{"stream_name":"stdout","time":15.099682387,"data":"\n"}
+,{"stream_name":"stdout","time":15.099686951,"data":"Saved metrics table to: /kaggle/working/email_test_metrics.csv\n"}
+,{"stream_name":"stdout","time":15.099691359,"data":"\n"}
+,{"stream_name":"stdout","time":15.099696244,"data":"================== XGBoost Classification Report ==================\n"}
+,{"stream_name":"stdout","time":15.099701285,"data":"              precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":15.099706216,"data":"\n"}
+,{"stream_name":"stdout","time":15.099710574,"data":"  Legitimate       0.97      0.95      0.96      3462\n"}
+,{"stream_name":"stdout","time":15.099714859,"data":"    Phishing       0.96      0.97      0.97      4369\n"}
+,{"stream_name":"stdout","time":15.099718717,"data":"\n"}
+,{"stream_name":"stdout","time":15.099722856,"data":"    accuracy                           0.96      7831\n"}
+,{"stream_name":"stdout","time":15.099726987,"data":"   macro avg       0.96      0.96      0.96      7831\n"}
+,{"stream_name":"stdout","time":15.099730909,"data":"weighted avg       0.96      0.96      0.96      7831\n"}
+,{"stream_name":"stdout","time":15.099735023,"data":"\n"}
+,{"stream_name":"stdout","time":15.099739569,"data":"\n"}
+,{"stream_name":"stdout","time":15.099744057,"data":"================== Random Forest Classification Report ==================\n"}
+,{"stream_name":"stdout","time":15.099748878,"data":"              precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":15.099753061,"data":"\n"}
+,{"stream_name":"stdout","time":15.09975671,"data":"  Legitimate       0.96      0.96      0.96      3462\n"}
+,{"stream_name":"stdout","time":15.099760734,"data":"    Phishing       0.97      0.97      0.97      4369\n"}
+,{"stream_name":"stdout","time":15.099764523,"data":"\n"}
+,{"stream_name":"stdout","time":15.099768221,"data":"    accuracy                           0.97      7831\n"}
+,{"stream_name":"stdout","time":15.099772076,"data":"   macro avg       0.97      0.97      0.97      7831\n"}
+,{"stream_name":"stdout","time":15.099775848,"data":"weighted avg       0.97      0.97      0.97      7831\n"}
+,{"stream_name":"stdout","time":15.099781865,"data":"\n"}
+,{"stream_name":"stdout","time":16.44104267,"data":"Saved confusion matrices to: /kaggle/working/email_confusion_matrices.png\n"}
+,{"stream_name":"stdout","time":17.078439099,"data":"Saved ROC curve to: /kaggle/working/email_roc_curve.png\n"}
+,{"stream_name":"stdout","time":17.700327919,"data":"Saved precision-recall curve to: /kaggle/working/email_precision_recall_curve.png\n"}
+,{"stream_name":"stdout","time":17.739336558,"data":"Saved evaluation summary to: /kaggle/working/email_evaluation_summary.json\n"}
+,{"stream_name":"stdout","time":17.739385296000002,"data":"\n"}
+,{"stream_name":"stdout","time":17.739391707,"data":"All evaluation artifacts saved to /kaggle/working:\n"}
+,{"stream_name":"stdout","time":17.739396141,"data":" - email_test_metrics.csv\n"}
+,{"stream_name":"stdout","time":17.739400341,"data":" - email_confusion_matrices.png\n"}
+,{"stream_name":"stdout","time":17.739405125,"data":" - email_roc_curve.png\n"}
+,{"stream_name":"stdout","time":17.739409245,"data":" - email_precision_recall_curve.png\n"}
+,{"stream_name":"stdout","time":17.739413423,"data":" - email_evaluation_summary.json\n"}
+,{"stream_name":"stderr","time":21.304660868,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":21.304748503,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":21.496902756,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":21.496958277,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":22.287276384,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":22.67690094,"data":"[NbConvertApp] Writing 163489 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":25.763492803,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":26.842294474,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":26.842363504,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":26.842641169,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":26.842896537,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":26.843231873,"data":"[NbConvertApp] Writing 322148 bytes to __results__.html\n"}
+]
