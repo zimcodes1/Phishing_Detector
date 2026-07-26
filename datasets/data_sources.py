@@ -9,4 +9,4 @@ phishing_email_dataset = DataSource(url="https://www.kaggle.com/datasets/naserab
 
 phishing_url_dataset = DataSource(url="https://www.kaggle.com/datasets/eswarchandt/phishing-website-detector", name="Phishing website Detector", source_license="Unknown", description="This dataset contains 11,055 records with 31 features related to phishing websites.")
 
-print(f"Email: {phishing_email_dataset} \nURL: {phishing_url_dataset}")
+print(f"Email: {phishing_email_dataset.__dict__} \nURL: {phishing_url_dataset.__dict__}")
