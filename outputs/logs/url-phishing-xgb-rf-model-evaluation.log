@@ -1,0 +1,81 @@
+[{"stream_name":"stderr","time":7.885239589,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.88535212,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.885364264,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.885368903,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.587770635,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.587809367,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.587815936,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.587821108,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.803379488000001,"data":"/kaggle/input/models/azimehobadiah/url-phishing-rf-model/scikitlearn/default/1/rf_model.joblib\n"}
+,{"stream_name":"stdout","time":9.803424878,"data":"/kaggle/input/models/azimehobadiah/url-xgb-phishing-model/other/default/1/xgb_model.joblib\n"}
+,{"stream_name":"stdout","time":9.803429542,"data":"/kaggle/input/datasets/azimehobadiah/url-phishing-test-set/y_test.csv\n"}
+,{"stream_name":"stdout","time":9.803459771,"data":"/kaggle/input/datasets/azimehobadiah/url-phishing-test-set/X_test.csv\n"}
+,{"stream_name":"stdout","time":11.04087645,"data":"Loading models and test set from:\n"}
+,{"stream_name":"stdout","time":11.040943587,"data":"  /kaggle/input/models/azimehobadiah/url-xgb-phishing-model/other/default/1/xgb_model.joblib\n"}
+,{"stream_name":"stdout","time":11.040951928,"data":"  /kaggle/input/models/azimehobadiah/url-phishing-rf-model/scikitlearn/default/1/rf_model.joblib\n"}
+,{"stream_name":"stdout","time":11.040957323,"data":"  /kaggle/input/datasets/azimehobadiah/url-phishing-test-set/X_test.csv\n"}
+,{"stream_name":"stdout","time":11.040961685,"data":"  /kaggle/input/datasets/azimehobadiah/url-phishing-test-set/y_test.csv\n"}
+,{"stream_name":"stdout","time":13.550483256,"data":"\n"}
+,{"stream_name":"stdout","time":13.550534907,"data":"X_test shape: (2211, 7)\n"}
+,{"stream_name":"stdout","time":13.550543171,"data":"y_test shape: (2211,)\n"}
+,{"stream_name":"stdout","time":13.550547678000001,"data":"\n"}
+,{"stream_name":"stdout","time":13.550552587,"data":"Test set class balance:\n"}
+,{"stream_name":"stdout","time":13.550557233,"data":"       count  percentage\n"}
+,{"stream_name":"stdout","time":13.550561913,"data":"class                   \n"}
+,{"stream_name":"stdout","time":13.55056634,"data":"0        979       44.28\n"}
+,{"stream_name":"stdout","time":13.550571045,"data":"1       1232       55.72\n"}
+,{"stream_name":"stdout","time":13.647554321,"data":"Predictions generated for both models on the held-out test set.\n"}
+,{"stream_name":"stdout","time":13.647611126,"data":"XGBoost predicted class balance: {1: 1237, 0: 974}\n"}
+,{"stream_name":"stdout","time":13.647618026,"data":"Random Forest predicted class balance: {1: 1219, 0: 992}\n"}
+,{"stream_name":"stdout","time":13.723912145,"data":"================== Test Set Metrics (Phishing = positive class) ==================\n"}
+,{"stream_name":"stdout","time":13.723965263,"data":"               accuracy  precision  recall      f1  roc_auc\n"}
+,{"stream_name":"stdout","time":13.723972062,"data":"XGBoost          0.9344     0.9281  0.9234  0.9258   0.0169\n"}
+,{"stream_name":"stdout","time":13.723976486,"data":"Random Forest    0.9344     0.9204  0.9326  0.9264   0.0164\n"}
+,{"stream_name":"stdout","time":13.724015087,"data":"\n"}
+,{"stream_name":"stdout","time":13.724021159,"data":"Saved metrics table to: /kaggle/working/url_test_metrics.csv\n"}
+,{"stream_name":"stdout","time":13.724025586,"data":"\n"}
+,{"stream_name":"stdout","time":13.724030031,"data":"================== XGBoost Classification Report ==================\n"}
+,{"stream_name":"stdout","time":13.724034857,"data":"              precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":13.7240396,"data":"\n"}
+,{"stream_name":"stdout","time":13.7240442,"data":"    Phishing       0.93      0.92      0.93       979\n"}
+,{"stream_name":"stdout","time":13.724048655,"data":"  Legitimate       0.94      0.94      0.94      1232\n"}
+,{"stream_name":"stdout","time":13.724053395,"data":"\n"}
+,{"stream_name":"stdout","time":13.724057473,"data":"    accuracy                           0.93      2211\n"}
+,{"stream_name":"stdout","time":13.724062374,"data":"   macro avg       0.93      0.93      0.93      2211\n"}
+,{"stream_name":"stdout","time":13.724067283,"data":"weighted avg       0.93      0.93      0.93      2211\n"}
+,{"stream_name":"stdout","time":13.724071336,"data":"\n"}
+,{"stream_name":"stdout","time":13.724075027,"data":"\n"}
+,{"stream_name":"stdout","time":13.724078891,"data":"================== Random Forest Classification Report ==================\n"}
+,{"stream_name":"stdout","time":13.724082849,"data":"              precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":13.724088671,"data":"\n"}
+,{"stream_name":"stdout","time":13.724096876,"data":"    Phishing       0.92      0.93      0.93       979\n"}
+,{"stream_name":"stdout","time":13.724099971,"data":"  Legitimate       0.95      0.94      0.94      1232\n"}
+,{"stream_name":"stdout","time":13.724102935,"data":"\n"}
+,{"stream_name":"stdout","time":13.724105491,"data":"    accuracy                           0.93      2211\n"}
+,{"stream_name":"stdout","time":13.724108291,"data":"   macro avg       0.93      0.93      0.93      2211\n"}
+,{"stream_name":"stdout","time":13.724111202,"data":"weighted avg       0.93      0.93      0.93      2211\n"}
+,{"stream_name":"stdout","time":13.724114006,"data":"\n"}
+,{"stream_name":"stdout","time":15.00812788,"data":"Saved confusion matrices to: /kaggle/working/url_confusion_matrices.png\n"}
+,{"stream_name":"stdout","time":15.633801671,"data":"Saved ROC curve to: /kaggle/working/url_roc_curve.png\n"}
+,{"stream_name":"stdout","time":16.228344589,"data":"Saved precision-recall curve to: /kaggle/working/url_precision_recall_curve.png\n"}
+,{"stream_name":"stdout","time":16.266352154,"data":"Saved evaluation summary to: /kaggle/working/url_evaluation_summary.json\n"}
+,{"stream_name":"stdout","time":16.266386376,"data":"\n"}
+,{"stream_name":"stdout","time":16.266392946,"data":"All evaluation artifacts saved to /kaggle/working:\n"}
+,{"stream_name":"stdout","time":16.26639818,"data":" - url_test_metrics.csv\n"}
+,{"stream_name":"stdout","time":16.266402694,"data":" - url_confusion_matrices.png\n"}
+,{"stream_name":"stdout","time":16.266407061,"data":" - url_roc_curve.png\n"}
+,{"stream_name":"stdout","time":16.266411354,"data":" - url_precision_recall_curve.png\n"}
+,{"stream_name":"stdout","time":16.266415925,"data":" - url_evaluation_summary.json\n"}
+,{"stream_name":"stderr","time":19.682279425,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":19.682353426,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":19.866691348,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":19.866733841,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":20.593171493,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":21.027529655,"data":"[NbConvertApp] Writing 161719 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":23.968580927,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":25.026289487,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":25.02636242,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":25.027197,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":25.028518944,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":25.028545376,"data":"[NbConvertApp] Writing 322025 bytes to __results__.html\n"}
+]
